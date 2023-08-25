@@ -26,9 +26,9 @@ class LoginPage(tk.Tk):
             fg="black",
             font=("Arial", 10),
             relief=tk.RAISED,
-            bd=1,
-            padx=10,
-            pady=2,
+            bd=2,
+            padx=15,
+            pady=8,
             activebackground="red",
             activeforeground="white",
             command=self.login)
